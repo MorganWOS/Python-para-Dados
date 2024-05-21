@@ -3,7 +3,7 @@ import csv
 import matplotlib.pyplot as plt
 
 
-path = Path('RDR2/primeiro_banco_de_dados.csv')
+path = Path('/home/morganwos/Programacao_Estudos/RDR2/primeiro_banco_de_dados.csv')
 lines = path.read_text().splitlines()
 
 reader = csv.reader(lines)
@@ -35,10 +35,10 @@ n = likes.count(' N')
 m = gens.count(' M')
 f = gens.count(' F')
 
-print(n)
+
+print("Pessoas que gostam de RDR2:")
 print(y)
-print(m)
-print(f)
+
 
 
 #Cria a visualização grafica dos dados coletados
